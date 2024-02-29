@@ -9,8 +9,8 @@ def find(k):
             if combine == combine[::-1]:
                 print(combine)
                 return
-
     print(0)
+
 
 
 for tc in range(int(input())):
