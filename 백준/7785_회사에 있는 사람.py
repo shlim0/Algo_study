@@ -7,8 +7,7 @@ for tc in range(int(input())):
     name, status = input().split()
     table[name] = status
 
-sorted_table = sorted(table.items(), reverse=True)
+sorted_table = sorted((name for name in table if table[name] == "enter"), reverse=True)
 
-for i in sorted_table:
-    if i[1] == "enter":
-        print(i[0])
+for name in sorted_table:
+    print(name)
