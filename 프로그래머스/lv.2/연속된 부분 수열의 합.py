@@ -83,5 +83,3 @@ def solution(sequence, k):
             interval = i - s
 
     return ans
-
-
