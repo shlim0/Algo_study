@@ -81,11 +81,3 @@ def solution(sequence, k):
         if sum == k and i - s < interval:
             ans = [s, i]
             interval = i - s
-
-<<<<<<< HEAD
-    return ans
-=======
-    return ans
-
-
->>>>>>> origin/main
