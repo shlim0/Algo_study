@@ -82,4 +82,10 @@ def solution(sequence, k):
             ans = [s, i]
             interval = i - s
 
+<<<<<<< HEAD
     return ans
+=======
+    return ans
+
+
+>>>>>>> origin/main
