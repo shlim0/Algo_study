@@ -8,7 +8,7 @@ n = int(input())
 m = int(input())
 arr = [[] for _ in range(n+1)]  # 1번 도시, ..., n번 도시
 dist = [float('inf') for _ in range(n+1)]
-pre = [0 for _ in range(n+1)]   # 도시 이동 기록 저장
+pre = [0 for _ in range(n+1)] # 도시 이동 기록 저장
 
 for _ in range(m):
     # u: 시작점, v: 도착점, w: 거리(가중치)
