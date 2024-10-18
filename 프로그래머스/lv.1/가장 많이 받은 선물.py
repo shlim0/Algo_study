@@ -41,7 +41,6 @@ def solution(friends, gifts):
     # print(received)
     # print(exp)
 
-    sender: object
     for sender, sended_value in d.items():
         # print(sender, sended_value)
         for receiver, received_value in sended_value.items():
