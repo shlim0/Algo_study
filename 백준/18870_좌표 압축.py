@@ -10,8 +10,7 @@ d = defaultdict(int)
 
 for i in range(0, len(sorted_arr)):
     value = sorted_arr[i]
-    if not d[value]:
-        d[value] = i
+    d[value] = i
 
 for value in arr:
     print(d[value], end=" ")
