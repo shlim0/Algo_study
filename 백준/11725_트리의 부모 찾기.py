@@ -1,4 +1,4 @@
-# 16 min
+# 35 min
 import sys
 from collections import defaultdict
 input = sys.stdin.readline
